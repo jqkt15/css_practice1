@@ -1,0 +1,23 @@
+
+#goback{
+  margin: 20px;
+
+  text-decoration-line: underline;
+  color: red;
+}
+
+#algoimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media(min-width:800px){
+  #algoimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+  }
+}
