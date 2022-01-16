@@ -1,0 +1,27 @@
+
+#grid #center_main{
+  padding: 0;
+  margin: 0;
+  height: 500px;
+
+  font-size: 30px;
+  color: black;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  text-align:center;
+}
+
+#mainimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media(min-width:800px){
+  #mainimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+}

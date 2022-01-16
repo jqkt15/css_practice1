@@ -1,0 +1,44 @@
+
+#goback{
+  margin: 20px;
+
+  text-decoration-line: underline;
+  color: red;
+}
+
+#grid #center_text h2{
+    padding: 7px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+#grid #center_text #list{
+  padding: 7px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  margin: 0;
+
+  font-size: 17px;
+  color: black;
+}
+
+#grid #center_text #list li{
+  padding-bottom: 17px;
+}
+
+#algoimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media(min-width:800px){
+  #algoimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+  }
+}
